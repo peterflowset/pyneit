@@ -1,0 +1,201 @@
+{
+  "nav": {
+    "wine": "930",
+    "wineSubtitle": "Il Vino",
+    "geschichte": "Storia",
+    "geschichteSubtitle": "Le nostre origini",
+    "philosophie": "Filosofia",
+    "philosophieSubtitle": "Il nostro approccio",
+    "weingut": "Tenuta",
+    "weingutSubtitle": "Il nostro luogo",
+    "kontakt": "Contatti",
+    "menu": "Menu",
+    "close": "Chiudi"
+  },
+  "home": {
+    "heroAlt": "Vigneti altoatesini in luce autunnale con vista sulle Dolomiti",
+    "scrollDown": "Scopri",
+    "introQuote": "Dove la montagna tocca il cielo, nasce un vino che porta la sua origine in ogni goccia.",
+    "introQuoteAuthor": "Pyneit",
+    "wineTeaser": {
+      "overline": "Il nostro vino",
+      "title": "930",
+      "description": "Il nome nasce dall'altitudine in cui crescono le nostre viti. Un vino plasmato dal clima alpino, dal calcare e dalla pazienza.",
+      "cta": "Scopri"
+    },
+    "videoSection": {
+      "overline": "Il processo",
+      "title": "Dalla montagna al bicchiere"
+    },
+    "storyTeaser": {
+      "geschichteTitle": "La nostra storia",
+      "geschichteText": "Un pezzo di terra. Una visione. L'inizio di qualcosa di nuovo.",
+      "philosophieTitle": "La nostra filosofia",
+      "philosophieText": "Lasciamo parlare la montagna. Senza fretta, senza compromessi.",
+      "cta": "Scopri di più"
+    },
+    "placeTeaser": {
+      "overline": "Alto Adige",
+      "title": "La Tenuta",
+      "text": "A 930 metri di altitudine, circondati dalle cime delle Dolomiti.",
+      "cta": "Scopri"
+    }
+  },
+  "wine": {
+    "hero": {
+      "overline": "Il Vino",
+      "title": "930",
+      "subtitle": "Cresciuto a 930 metri. Plasmato dal calcare, dal vento alpino e dalla forza dell'altitudine.",
+      "grape": "Vitigno",
+      "vintage": "Annata",
+      "altitude": "Altitudine"
+    },
+    "tasting": {
+      "title": "Note di degustazione",
+      "eye": "Vista",
+      "eyeText": "Rosso rubino profondo con riflessi granati. Denso e luminoso nel calice.",
+      "nose": "Naso",
+      "noseText": "Frutti di bosco scuri, un tocco di violetta, con note speziate di chiodi di garofano e pepe nero.",
+      "palate": "Palato",
+      "palateText": "Pieno con tannini vellutati. Aromi di ciliegie mature, tabacco e un finale minerale che riflette l'altitudine.",
+      "details": "Dettagli tecnici",
+      "grapeLabel": "Vitigno",
+      "alcoholLabel": "Alcol",
+      "agingLabel": "Affinamento",
+      "altitudeLabel": "Altitudine",
+      "sizeLabel": "Formato"
+    },
+    "vineyard": {
+      "title": "Il vigneto a 930m",
+      "text": "A questa altitudine, le escursioni termiche tra giorno e notte sono estreme. Questo dà alle uve il tempo di maturare lentamente e sviluppare aromi complessi. Il terreno calcareo e il vento alpino fanno il resto."
+    },
+    "shop": {
+      "title": "Ordina",
+      "priceLabel": "Prezzo per cartone (6 bottiglie)",
+      "quantity": "Numero di cartoni",
+      "shipping": "Spedizione in Italia e Austria",
+      "shippingNote": "I costi di spedizione vengono calcolati al checkout.",
+      "ageNotice": "Acquistando confermi di avere almeno 18 anni.",
+      "buyButton": "Acquista ora",
+      "buying": "Reindirizzamento..."
+    },
+    "winemakerQuote": {
+      "quote": "Questo vino non è un prodotto. È un dialogo tra uomo e montagna, che si rinnova ogni anno.",
+      "author": "Il vignaiolo"
+    }
+  },
+  "geschichte": {
+    "hero": {
+      "title": "La nostra storia",
+      "subtitle": "Dalla prima vite alla prima annata"
+    },
+    "intro": {
+      "text": "Pyneit non è nato con un business plan. È nato con un pezzo di terra a 930 metri di altitudine, che nessuno avrebbe considerato per la viticoltura. E con la convinzione che proprio qui potesse crescere qualcosa di speciale."
+    },
+    "timeline": {
+      "chapter1Title": "Il terreno",
+      "chapter1Text": "Un pendio ripido nelle Alpi altoatesine. Calcare, vento e una vista che toglie il fiato. Qui, dove altri vedevano solo roccia, noi abbiamo visto potenziale.",
+      "chapter2Title": "Le prime viti",
+      "chapter2Text": "La piantumazione è stata una sfida. Il terreno doveva essere preparato con cura, ogni vite piantata singolarmente. A questa altitudine non esistono scorciatoie.",
+      "chapter3Title": "Il primo vino",
+      "chapter3Text": "Dopo anni di pazienza: la prima annata. Un vino che riflette tutto ciò che rende speciale questo luogo — l'altitudine, il freddo, la mineralità, la forza."
+    },
+    "quote": {
+      "text": "Non abbiamo creato un vigneto. Abbiamo ascoltato una montagna.",
+      "author": "Pyneit"
+    }
+  },
+  "philosophie": {
+    "hero": {
+      "title": "La nostra filosofia",
+      "subtitle": "Vino che sa di montagna"
+    },
+    "intro": {
+      "text": "Crediamo che il grande vino nasca dove l'uomo fa un passo indietro. Il nostro lavoro è creare le condizioni — e poi lasciare la parola al terroir."
+    },
+    "values": {
+      "terroirTitle": "Terroir",
+      "terroirText": "930 metri di altitudine, terreno calcareo, escursioni termiche estreme. Il nostro terroir non è un termine di marketing — è la realtà che plasma ogni goccia.",
+      "sustainabilityTitle": "Sostenibilità",
+      "sustainabilityText": "Lavoriamo con la montagna, non contro di essa. Intervento minimo nel vigneto, nessun uso di erbicidi, rispetto per il ciclo naturale.",
+      "craftTitle": "Artigianalità",
+      "craftText": "Ogni grappolo viene raccolto a mano. Ogni passaggio in cantina è una scelta consapevole. Qualità prima della quantità — sempre."
+    }
+  },
+  "weingut": {
+    "hero": {
+      "title": "La Tenuta",
+      "subtitle": "Alto Adige, 930 metri sul livello del mare"
+    },
+    "location": {
+      "text": "Immersa nel paesaggio alpino dell'Alto Adige, la nostra tenuta si trova a 930 metri di altitudine. Un luogo dove la freschezza alpina incontra il sole mediterraneo — il palcoscenico perfetto per vini straordinari."
+    },
+    "galleryTitle": "Impressioni"
+  },
+  "kontakt": {
+    "hero": {
+      "title": "Contatti",
+      "subtitle": "Saremo lieti di ricevere il vostro messaggio"
+    },
+    "form": {
+      "name": "Nome",
+      "email": "E-mail",
+      "subject": "Oggetto",
+      "message": "Messaggio",
+      "send": "Invia messaggio",
+      "sending": "Invio in corso...",
+      "success": "Grazie! Il vostro messaggio è stato inviato.",
+      "error": "Qualcosa è andato storto. Per favore riprovate."
+    },
+    "address": {
+      "title": "Venite a trovarci",
+      "company": "Pyneit",
+      "street": "Weinbergweg 1",
+      "city": "39100 Bolzano",
+      "country": "Alto Adige, Italia",
+      "phone": "+39 0471 000 000",
+      "email": "info@pyneit.com"
+    }
+  },
+  "checkout": {
+    "success": {
+      "title": "Grazie!",
+      "text": "Il vostro ordine è stato effettuato con successo. Riceverete a breve una conferma via e-mail.",
+      "backHome": "Torna alla home"
+    },
+    "cancel": {
+      "title": "Ordine annullato",
+      "text": "Il vostro ordine non è stato completato. Potete ordinare di nuovo in qualsiasi momento.",
+      "backToShop": "Torna al vino"
+    }
+  },
+  "footer": {
+    "tagline": "Vino da 930 metri di altitudine",
+    "navigation": "Navigazione",
+    "legal": "Note legali",
+    "impressum": "Impressum",
+    "datenschutz": "Privacy",
+    "copyright": "© {year} Pyneit. Tutti i diritti riservati.",
+    "ageNotice": "Il consumo di alcol è vietato ai minori di 18 anni."
+  },
+  "ageGate": {
+    "title": "Verifica dell'età",
+    "text": "Hai almeno 18 anni?",
+    "yes": "Sì, ho più di 18 anni",
+    "no": "No"
+  },
+  "meta": {
+    "homeTitle": "Pyneit — Vino dall'Alto Adige",
+    "homeDescription": "Pyneit — Vino altoatesino da 930 metri di altitudine. Scoprite il nostro 930, cresciuto nelle Dolomiti.",
+    "wineTitle": "930 — Il Vino",
+    "wineDescription": "930 — Un vino rosso altoatesino cresciuto a 930 metri di altitudine. Plasmato dal calcare, dal vento alpino e dalla forza dell'altitudine.",
+    "geschichteTitle": "La nostra storia",
+    "geschichteDescription": "La storia di Pyneit — dalla prima vite alla prima annata a 930 metri di altitudine in Alto Adige.",
+    "philosophieTitle": "La nostra filosofia",
+    "philosophieDescription": "La nostra filosofia: terroir, sostenibilità e artigianalità. Vino che sa di montagna.",
+    "weingutTitle": "La Tenuta",
+    "weingutDescription": "La tenuta Pyneit in Alto Adige, 930 metri sul livello del mare. Freschezza alpina incontra sole mediterraneo.",
+    "kontaktTitle": "Contatti",
+    "kontaktDescription": "Contattateci — saremo lieti di ricevere il vostro messaggio."
+  }
+}

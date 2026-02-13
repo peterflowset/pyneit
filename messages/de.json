@@ -1,0 +1,201 @@
+{
+  "nav": {
+    "wine": "930",
+    "wineSubtitle": "Der Wein",
+    "geschichte": "Geschichte",
+    "geschichteSubtitle": "Unser Ursprung",
+    "philosophie": "Philosophie",
+    "philosophieSubtitle": "Unsere Haltung",
+    "weingut": "Weingut",
+    "weingutSubtitle": "Unser Ort",
+    "kontakt": "Kontakt",
+    "menu": "Menü",
+    "close": "Schließen"
+  },
+  "home": {
+    "heroAlt": "Südtiroler Weinberge im Herbstlicht mit Blick auf die Dolomiten",
+    "scrollDown": "Entdecken",
+    "introQuote": "Wo der Berg den Himmel berührt, wächst ein Wein, der seine Herkunft in jedem Tropfen trägt.",
+    "introQuoteAuthor": "Pyneit",
+    "wineTeaser": {
+      "overline": "Unser Wein",
+      "title": "930",
+      "description": "Benannt nach der Höhe, in der unsere Reben wachsen. Ein Wein geprägt von alpinem Klima, Kalkstein und Geduld.",
+      "cta": "Entdecken"
+    },
+    "videoSection": {
+      "overline": "Der Prozess",
+      "title": "Vom Berg ins Glas"
+    },
+    "storyTeaser": {
+      "geschichteTitle": "Unsere Geschichte",
+      "geschichteText": "Ein Stück Land. Eine Vision. Der Beginn von etwas Neuem.",
+      "philosophieTitle": "Unsere Philosophie",
+      "philosophieText": "Wir lassen den Berg sprechen. Ohne Eile, ohne Kompromiss.",
+      "cta": "Mehr erfahren"
+    },
+    "placeTeaser": {
+      "overline": "Südtirol",
+      "title": "Das Weingut",
+      "text": "Auf 930 Metern Höhe, umgeben von den Gipfeln der Dolomiten.",
+      "cta": "Entdecken"
+    }
+  },
+  "wine": {
+    "hero": {
+      "overline": "Der Wein",
+      "title": "930",
+      "subtitle": "Gewachsen auf 930 Metern. Geprägt von Kalkstein, alpinem Wind und der Kraft der Höhe.",
+      "grape": "Rebsorte",
+      "vintage": "Jahrgang",
+      "altitude": "Höhenlage"
+    },
+    "tasting": {
+      "title": "Verkostungsnotizen",
+      "eye": "Auge",
+      "eyeText": "Tiefes Rubinrot mit granatfarbenen Reflexen. Dicht und leuchtend im Glas.",
+      "nose": "Nase",
+      "noseText": "Dunkle Waldbeeren, ein Hauch von Veilchen, unterlegt von würzigen Noten aus Nelke und schwarzem Pfeffer.",
+      "palate": "Gaumen",
+      "palateText": "Vollmundig mit samtigen Tanninen. Aromen von reifen Kirschen, Tabak und einem mineralischen Finish, das die Höhenlage widerspiegelt.",
+      "details": "Technische Details",
+      "grapeLabel": "Rebsorte",
+      "alcoholLabel": "Alkohol",
+      "agingLabel": "Reifung",
+      "altitudeLabel": "Höhenlage",
+      "sizeLabel": "Flaschengröße"
+    },
+    "vineyard": {
+      "title": "Der Weinberg auf 930m",
+      "text": "Auf dieser Höhe sind die Temperaturunterschiede zwischen Tag und Nacht extrem. Das gibt den Trauben Zeit, langsam zu reifen und komplexe Aromen zu entwickeln. Der kalkhaltige Boden und der alpine Wind tun ihr Übriges."
+    },
+    "shop": {
+      "title": "Bestellen",
+      "priceLabel": "Preis pro Karton (6 Flaschen)",
+      "quantity": "Anzahl Kartons",
+      "shipping": "Versand innerhalb Italiens und Österreichs",
+      "shippingNote": "Versandkosten werden an der Kasse berechnet.",
+      "ageNotice": "Durch den Kauf bestätigen Sie, dass Sie mindestens 18 Jahre alt sind.",
+      "buyButton": "Jetzt kaufen",
+      "buying": "Weiterleitung..."
+    },
+    "winemakerQuote": {
+      "quote": "Dieser Wein ist kein Produkt. Er ist ein Gespräch zwischen Mensch und Berg, das jedes Jahr aufs Neue geführt wird.",
+      "author": "Der Winzer"
+    }
+  },
+  "geschichte": {
+    "hero": {
+      "title": "Unsere Geschichte",
+      "subtitle": "Vom ersten Rebstock zum ersten Jahrgang"
+    },
+    "intro": {
+      "text": "Pyneit begann nicht mit einem Businessplan. Es begann mit einem Stück Land auf 930 Metern Höhe, das niemand für Weinbau in Betracht gezogen hätte. Und mit der Überzeugung, dass genau hier etwas Besonderes wachsen kann."
+    },
+    "timeline": {
+      "chapter1Title": "Das Land",
+      "chapter1Text": "Ein steiler Hang in den Südtiroler Alpen. Kalkstein, Wind und eine Aussicht, die den Atem raubt. Hier, wo andere nur Fels sahen, sahen wir Potenzial.",
+      "chapter2Title": "Die ersten Reben",
+      "chapter2Text": "Die Pflanzung war eine Herausforderung. Der Boden musste behutsam vorbereitet werden, jeder Rebstock einzeln gesetzt. In dieser Höhe gibt es keine Abkürzungen.",
+      "chapter3Title": "Der erste Wein",
+      "chapter3Text": "Nach Jahren der Geduld: der erste Jahrgang. Ein Wein, der alles widerspiegelt, was diesen Ort ausmacht — die Höhe, die Kälte, die Mineralität, die Kraft."
+    },
+    "quote": {
+      "text": "Wir haben nicht einen Weinberg angelegt. Wir haben einem Berg zugehört.",
+      "author": "Pyneit"
+    }
+  },
+  "philosophie": {
+    "hero": {
+      "title": "Unsere Philosophie",
+      "subtitle": "Wein, der den Berg schmecken lässt"
+    },
+    "intro": {
+      "text": "Wir glauben, dass großer Wein dort entsteht, wo der Mensch sich zurücknimmt. Unsere Arbeit ist es, die Bedingungen zu schaffen — und dann dem Terroir das Wort zu überlassen."
+    },
+    "values": {
+      "terroirTitle": "Terroir",
+      "terroirText": "930 Meter Höhe, Kalksteinboden, extreme Temperaturschwankungen. Unser Terroir ist kein Marketing-Begriff — es ist die Realität, die jeden Tropfen formt.",
+      "sustainabilityTitle": "Nachhaltigkeit",
+      "sustainabilityText": "Wir arbeiten mit dem Berg, nicht gegen ihn. Minimale Intervention im Weinberg, kein Einsatz von Herbiziden, Respekt vor dem natürlichen Kreislauf.",
+      "craftTitle": "Handwerk",
+      "craftText": "Jede Traube wird von Hand gelesen. Jeder Schritt im Keller ist bewusst gewählt. Qualität über Quantität — immer."
+    }
+  },
+  "weingut": {
+    "hero": {
+      "title": "Das Weingut",
+      "subtitle": "Südtirol, 930 Meter über dem Meer"
+    },
+    "location": {
+      "text": "Eingebettet in die Südtiroler Alpenlandschaft liegt unser Weingut auf 930 Metern Höhe. Ein Ort, an dem alpine Frische auf mediterrane Sonne trifft — die perfekte Bühne für außergewöhnliche Weine."
+    },
+    "galleryTitle": "Eindrücke"
+  },
+  "kontakt": {
+    "hero": {
+      "title": "Kontakt",
+      "subtitle": "Wir freuen uns auf Ihre Nachricht"
+    },
+    "form": {
+      "name": "Name",
+      "email": "E-Mail",
+      "subject": "Betreff",
+      "message": "Nachricht",
+      "send": "Nachricht senden",
+      "sending": "Wird gesendet...",
+      "success": "Vielen Dank! Ihre Nachricht wurde gesendet.",
+      "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
+    },
+    "address": {
+      "title": "Besuchen Sie uns",
+      "company": "Pyneit",
+      "street": "Weinbergweg 1",
+      "city": "39100 Bozen",
+      "country": "Südtirol, Italien",
+      "phone": "+39 0471 000 000",
+      "email": "info@pyneit.com"
+    }
+  },
+  "checkout": {
+    "success": {
+      "title": "Vielen Dank!",
+      "text": "Ihre Bestellung wurde erfolgreich aufgegeben. Sie erhalten in Kürze eine Bestätigung per E-Mail.",
+      "backHome": "Zurück zur Startseite"
+    },
+    "cancel": {
+      "title": "Bestellung abgebrochen",
+      "text": "Ihre Bestellung wurde nicht abgeschlossen. Sie können jederzeit erneut bestellen.",
+      "backToShop": "Zurück zum Wein"
+    }
+  },
+  "footer": {
+    "tagline": "Wein aus 930 Metern Höhe",
+    "navigation": "Navigation",
+    "legal": "Rechtliches",
+    "impressum": "Impressum",
+    "datenschutz": "Datenschutz",
+    "copyright": "© {year} Pyneit. Alle Rechte vorbehalten.",
+    "ageNotice": "Der Genuss von Alkohol ist Personen unter 18 Jahren untersagt."
+  },
+  "ageGate": {
+    "title": "Altersbestätigung",
+    "text": "Sind Sie mindestens 18 Jahre alt?",
+    "yes": "Ja, ich bin über 18",
+    "no": "Nein"
+  },
+  "meta": {
+    "homeTitle": "Pyneit — Wein aus Südtirol",
+    "homeDescription": "Pyneit — Südtiroler Wein aus 930 Metern Höhe. Entdecken Sie unseren 930, gewachsen in den Dolomiten.",
+    "wineTitle": "930 — Der Wein",
+    "wineDescription": "930 — Ein Südtiroler Rotwein gewachsen auf 930 Metern Höhe. Geprägt von Kalkstein, alpinem Wind und der Kraft der Höhe.",
+    "geschichteTitle": "Unsere Geschichte",
+    "geschichteDescription": "Die Geschichte von Pyneit — vom ersten Rebstock zum ersten Jahrgang auf 930 Metern Höhe in Südtirol.",
+    "philosophieTitle": "Unsere Philosophie",
+    "philosophieDescription": "Unsere Philosophie: Terroir, Nachhaltigkeit und Handwerk. Wein, der den Berg schmecken lässt.",
+    "weingutTitle": "Das Weingut",
+    "weingutDescription": "Das Pyneit Weingut in Südtirol, 930 Meter über dem Meer. Alpine Frische trifft mediterrane Sonne.",
+    "kontaktTitle": "Kontakt",
+    "kontaktDescription": "Kontaktieren Sie Pyneit — wir freuen uns auf Ihre Nachricht."
+  }
+}
