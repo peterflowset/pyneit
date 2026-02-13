@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { OptimizedImage } from "@/components/ui/OptimizedImage";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 
 interface TimelineChapter {
@@ -28,7 +28,7 @@ export function TimelineSection({ chapters }: TimelineSectionProps) {
                   className={isEven ? "md:order-1" : "md:order-2"}
                 >
                   <div className="relative aspect-[4/3] overflow-hidden">
-                    <Image
+                    <OptimizedImage
                       src={chapter.imageSrc}
                       alt={chapter.imageAlt}
                       fill

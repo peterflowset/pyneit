@@ -29,7 +29,7 @@ export default function HomePage() {
     <>
       <HeroSection
         id="home-hero"
-        imageSrc="/images/hero-vineyard.webp"
+        imageSrc="/images/mountain-view.webp"
         imageAlt={t("heroAlt")}
         scrollLabel={t("scrollDown")}
         showLogo
@@ -63,23 +63,22 @@ export default function HomePage() {
         overlay="dark"
       />
 
+      <TwoColsImageCta
+        item={{
+          title: t("storyTeaser.geschichteTitle"),
+          text: t("storyTeaser.geschichteText"),
+          href: "/geschichte",
+          cta: t("storyTeaser.cta"),
+        }}
+      />
+
       <VideoSection
         overline={t("videoSection.overline")}
         title={t("videoSection.title")}
       />
 
       <TwoColsImageCta
-        left={{
-          imageSrc: "/images/vineyard-closeup.webp",
-          imageAlt: "Weinberge in Südtirol",
-          title: t("storyTeaser.geschichteTitle"),
-          text: t("storyTeaser.geschichteText"),
-          href: "/geschichte",
-          cta: t("storyTeaser.cta"),
-        }}
-        right={{
-          imageSrc: "/images/winemaker-portrait.webp",
-          imageAlt: "Winzer bei der Arbeit",
+        item={{
           title: t("storyTeaser.philosophieTitle"),
           text: t("storyTeaser.philosophieText"),
           href: "/philosophie",

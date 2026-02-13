@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { OptimizedImage } from "@/components/ui/OptimizedImage";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 
 interface Value {
@@ -28,7 +28,7 @@ export function ValuesSection({ values }: ValuesSectionProps) {
                   className={isEven ? "md:order-1" : "md:order-2"}
                 >
                   <div className="relative aspect-[3/4] overflow-hidden">
-                    <Image
+                    <OptimizedImage
                       src={value.imageSrc}
                       alt={value.imageAlt}
                       fill

@@ -29,7 +29,7 @@ export default function GeschichtePage() {
         imageAlt="Südtiroler Landschaft"
         title={t("hero.title")}
         subtitle={t("hero.subtitle")}
-        height="tall"
+        height="compact"
         priority
       />
 

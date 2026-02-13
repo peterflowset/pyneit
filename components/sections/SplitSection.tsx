@@ -2,7 +2,7 @@
 
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import Image from "next/image";
+import { OptimizedImage } from "@/components/ui/OptimizedImage";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { AnimatedLink } from "@/components/ui/AnimatedLink";
 import { cn } from "@/lib/cn";
@@ -42,7 +42,7 @@ export function SplitSection({
         style={{ y: imgY }}
         className="absolute inset-[-15%] will-change-transform"
       >
-        <Image
+        <OptimizedImage
           src={imageSrc}
           alt={imageAlt}
           fill

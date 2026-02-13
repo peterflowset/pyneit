@@ -2,7 +2,7 @@
 
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import Image from "next/image";
+import { OptimizedImage } from "@/components/ui/OptimizedImage";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { AnimatedLink } from "@/components/ui/AnimatedLink";
 
@@ -30,7 +30,7 @@ export function PlaceTeaser({ overline, title, text, cta }: PlaceTeaserProps) {
         style={{ y: imgY, scale: imgScale }}
         className="absolute inset-[-10%] will-change-transform"
       >
-        <Image
+        <OptimizedImage
           src="/images/suedtirol-panorama.webp"
           alt="Südtiroler Alpenlandschaft mit Weinbergen"
           fill
@@ -38,7 +38,6 @@ export function PlaceTeaser({ overline, title, text, cta }: PlaceTeaserProps) {
           sizes="100vw"
         />
       </motion.div>
-      <div className="absolute inset-0 bg-black/40" />
       <motion.div
         style={{ y: contentY }}
         className="relative z-10 h-full flex flex-col items-center justify-center text-center text-text-secondary px-6 will-change-transform"

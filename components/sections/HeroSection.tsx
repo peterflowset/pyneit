@@ -2,7 +2,7 @@
 
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import Image from "next/image";
+import { OptimizedImage } from "@/components/ui/OptimizedImage";
 import { cn } from "@/lib/cn";
 import { ChevronDown } from "lucide-react";
 
@@ -14,7 +14,7 @@ interface HeroSectionProps {
   subtitle?: string;
   scrollLabel?: string;
   overlay?: "dark" | "light" | "none";
-  height?: "full" | "tall" | "medium";
+  height?: "full" | "tall" | "compact" | "medium";
   priority?: boolean;
   showLogo?: boolean;
 }
@@ -22,6 +22,7 @@ interface HeroSectionProps {
 const heightClasses = {
   full: "h-screen",
   tall: "h-[85vh]",
+  compact: "h-[50vh]",
   medium: "h-[60vh]",
 };
 
@@ -81,7 +82,7 @@ export function HeroSection({
           transition={{ duration: 2, ease: [0.87, 0, 0.13, 1] }}
           className="h-full w-full"
         >
-          <Image
+          <OptimizedImage
             src={imageSrc}
             alt={imageAlt}
             fill
@@ -113,7 +114,7 @@ export function HeroSection({
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.3, ease: [0.87, 0, 0.13, 1] }}
           >
-            <Image
+            <OptimizedImage
               src="/logo.svg"
               alt="Pyneit"
               width={200}

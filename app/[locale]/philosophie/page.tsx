@@ -28,7 +28,7 @@ export default function PhilosophiePage() {
         imageAlt="Trauben am Rebstock"
         title={t("hero.title")}
         subtitle={t("hero.subtitle")}
-        height="tall"
+        height="compact"
         priority
       />
 

@@ -2,7 +2,7 @@
 
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import Image from "next/image";
+import { OptimizedImage } from "@/components/ui/OptimizedImage";
 import { cn } from "@/lib/cn";
 
 interface ParallaxImageProps {
@@ -41,7 +41,7 @@ export function ParallaxImage({
         style={{ y, scale: scaleOnScroll ? scale : undefined }}
         className="absolute inset-[-20%] will-change-transform"
       >
-        <Image
+        <OptimizedImage
           src={src}
           alt={alt}
           fill

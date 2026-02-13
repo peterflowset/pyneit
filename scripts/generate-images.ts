@@ -124,7 +124,7 @@ async function generateImage(
 function compressToWebp(pngPath: string, outputPath: string): void {
   console.log(`  Compressing to WebP...`);
   execSync(
-    `cwebp -q 80 -resize 1920 0 "${pngPath}" -o "${outputPath}" 2>/dev/null`
+    `cwebp -q 90 -resize 1920 0 "${pngPath}" -o "${outputPath}" 2>/dev/null`
   );
 }
 

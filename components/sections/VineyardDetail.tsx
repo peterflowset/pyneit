@@ -2,7 +2,7 @@
 
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import Image from "next/image";
+import { OptimizedImage } from "@/components/ui/OptimizedImage";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 
 interface VineyardDetailProps {
@@ -27,7 +27,7 @@ export function VineyardDetail({ title, text }: VineyardDetailProps) {
         style={{ y: imgY, scale: imgScale }}
         className="absolute inset-[-15%] will-change-transform"
       >
-        <Image
+        <OptimizedImage
           src="/images/vineyard-930m.webp"
           alt="Weinberg auf 930 Metern Höhe"
           fill

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
+import { OptimizedImage } from "@/components/ui/OptimizedImage";
 import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/Button";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
@@ -35,7 +35,7 @@ export function ShopSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-24 items-center">
           <ScrollReveal>
             <div className="relative aspect-square max-w-md mx-auto">
-              <Image
+              <OptimizedImage
                 src="/images/bottle-packaging.webp"
                 alt="Pyneit 930 Flasche und Verpackung"
                 fill

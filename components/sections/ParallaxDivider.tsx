@@ -2,7 +2,7 @@
 
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import Image from "next/image";
+import { OptimizedImage } from "@/components/ui/OptimizedImage";
 import { cn } from "@/lib/cn";
 
 interface ParallaxDividerProps {
@@ -45,7 +45,7 @@ export function ParallaxDivider({
         style={{ y, scale }}
         className="absolute inset-[-20%] will-change-transform"
       >
-        <Image
+        <OptimizedImage
           src={imageSrc}
           alt={imageAlt}
           fill

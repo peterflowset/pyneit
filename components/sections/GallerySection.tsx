@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import { OptimizedImage } from "@/components/ui/OptimizedImage";
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
@@ -37,7 +37,7 @@ export function GallerySection({ title, images }: GallerySectionProps) {
             key={i}
             className="relative flex-shrink-0 w-[70vw] md:w-[40vw] aspect-[3/2] overflow-hidden"
           >
-            <Image
+            <OptimizedImage
               src={img.src}
               alt={img.alt}
               fill

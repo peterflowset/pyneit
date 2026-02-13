@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { OptimizedImage } from "@/components/ui/OptimizedImage";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 
 interface ProductHeroProps {
@@ -20,7 +20,7 @@ export function ProductHero({
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-24 items-center">
           <ScrollReveal>
             <div className="relative aspect-[2/3] max-w-md mx-auto">
-              <Image
+              <OptimizedImage
                 src="/images/bottle-930-dark.webp"
                 alt="Pyneit 930"
                 fill

@@ -28,7 +28,8 @@ export default function WeingutPage() {
         imageAlt="Südtiroler Alpenlandschaft mit Weinbergen"
         title={t("hero.title")}
         subtitle={t("hero.subtitle")}
-        height="tall"
+        overlay="none"
+        height="compact"
         priority
       />
 

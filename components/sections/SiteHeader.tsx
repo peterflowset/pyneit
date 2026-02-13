@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/routing";
 import { cn } from "@/lib/cn";
@@ -66,19 +65,17 @@ export function SiteHeader() {
               showLogo ? "pointer-events-auto" : "pointer-events-none"
             )}
           >
-            <Image
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
               src="/logo.svg"
               alt="Pyneit"
-              width={100}
-              height={60}
               className={cn(
-                "h-10 md:h-12 w-auto transition-all duration-300 will-change-transform",
+                "h-14 md:h-16 w-auto transition-all duration-300 will-change-transform",
                 showLogo
                   ? "opacity-100 translate-y-0"
                   : "opacity-0 translate-y-3",
                 useSolidStyle ? "brightness-0" : "brightness-0 invert"
               )}
-              priority
             />
           </Link>
 
