@@ -7,6 +7,7 @@ import { cn } from "@/lib/cn";
 import { ChevronDown } from "lucide-react";
 
 interface HeroSectionProps {
+  id?: string;
   imageSrc: string;
   imageAlt: string;
   title?: string;
@@ -25,6 +26,7 @@ const heightClasses = {
 };
 
 export function HeroSection({
+  id,
   imageSrc,
   imageAlt,
   title,
@@ -47,8 +49,25 @@ export function HeroSection({
   const contentOpacity = useTransform(scrollYProgress, [0, 0.6], [1, 0]);
   const overlayOpacity = useTransform(scrollYProgress, [0, 1], [0.3, 0.6]);
 
+  const handleScrollDown = () => {
+    const nextSection = ref.current?.nextElementSibling as HTMLElement | null;
+    if (!nextSection) {
+      return;
+    }
+
+    const headerOffset = 88;
+    const targetTop =
+      window.scrollY + nextSection.getBoundingClientRect().top - headerOffset;
+
+    window.scrollTo({
+      top: Math.max(targetTop, 0),
+      behavior: "smooth",
+    });
+  };
+
   return (
     <section
+      id={id}
       ref={ref}
       className={cn("relative overflow-hidden", heightClasses[height])}
     >
@@ -129,17 +148,23 @@ export function HeroSection({
       {scrollLabel && (
         <motion.div
           style={{ opacity: contentOpacity }}
-          className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2 text-text-secondary/60"
+          className="absolute bottom-8 left-6 md:left-12 z-10"
         >
-          <span className="font-sans text-xs uppercase tracking-[0.2em]">
-            {scrollLabel}
-          </span>
-          <motion.div
-            animate={{ y: [0, 6, 0] }}
-            transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
+          <button
+            type="button"
+            onClick={handleScrollDown}
+            className="group flex items-center gap-3 text-text-secondary/60 hover:text-text-secondary transition-colors duration-300"
           >
-            <ChevronDown className="w-4 h-4" />
-          </motion.div>
+            <span className="font-sans text-xs uppercase tracking-[0.2em]">
+              {scrollLabel}
+            </span>
+            <motion.div
+              animate={{ y: [0, 6, 0] }}
+              transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
+            >
+              <ChevronDown className="w-4 h-4" />
+            </motion.div>
+          </button>
         </motion.div>
       )}
     </section>

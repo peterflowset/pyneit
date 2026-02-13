@@ -1,9 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { Link } from "@/i18n/routing";
+import { Link, usePathname } from "@/i18n/routing";
 import { cn } from "@/lib/cn";
 import { useScrollPosition } from "@/hooks/use-scroll-position";
 import { LanguageSwitcher } from "@/components/ui/LanguageSwitcher";
@@ -11,15 +11,47 @@ import { OverlayMenu } from "@/components/sections/OverlayMenu";
 
 export function SiteHeader() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [hasPassedHero, setHasPassedHero] = useState(false);
+  const pathname = usePathname();
+  const isHomePage = pathname === "/";
   const { isScrolled } = useScrollPosition();
   const t = useTranslations("nav");
+  const showLogo = !isHomePage || hasPassedHero;
+  const useSolidStyle = isHomePage ? hasPassedHero : isScrolled;
+
+  useEffect(() => {
+    if (!isHomePage) {
+      setHasPassedHero(true);
+      return;
+    }
+
+    setHasPassedHero(false);
+    const hero = document.getElementById("home-hero");
+
+    if (!hero) {
+      return;
+    }
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setHasPassedHero(!entry.isIntersecting);
+      },
+      {
+        threshold: 0,
+        rootMargin: "-88px 0px 0px 0px",
+      }
+    );
+
+    observer.observe(hero);
+    return () => observer.disconnect();
+  }, [isHomePage, pathname]);
 
   return (
     <>
       <header
         className={cn(
           "fixed top-0 left-0 right-0 z-50 transition-all duration-300 ease-[cubic-bezier(0.87,0,0.13,1)]",
-          isScrolled
+          useSolidStyle
             ? "bg-bg-white/95 backdrop-blur-sm text-text-primary border-b border-text-muted/10"
             : "bg-transparent text-text-secondary"
         )}
@@ -29,7 +61,10 @@ export function SiteHeader() {
 
           <Link
             href="/"
-            className="absolute left-1/2 -translate-x-1/2"
+            className={cn(
+              "absolute left-1/2 -translate-x-1/2",
+              showLogo ? "pointer-events-auto" : "pointer-events-none"
+            )}
           >
             <Image
               src="/logo.svg"
@@ -38,9 +73,10 @@ export function SiteHeader() {
               height={60}
               className={cn(
                 "h-10 md:h-12 w-auto transition-all duration-300 will-change-transform",
-                isScrolled
-                  ? "opacity-100 translate-y-0 brightness-0"
-                  : "opacity-0 translate-y-3 brightness-0 invert pointer-events-none"
+                showLogo
+                  ? "opacity-100 translate-y-0"
+                  : "opacity-0 translate-y-3",
+                useSolidStyle ? "brightness-0" : "brightness-0 invert"
               )}
               priority
             />

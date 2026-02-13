@@ -28,6 +28,7 @@ export default function HomePage() {
   return (
     <>
       <HeroSection
+        id="home-hero"
         imageSrc="/images/hero-vineyard.webp"
         imageAlt={t("heroAlt")}
         scrollLabel={t("scrollDown")}
