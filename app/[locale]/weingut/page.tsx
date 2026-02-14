@@ -38,7 +38,7 @@ export default function WeingutPage() {
       <GallerySection
         title={t("galleryTitle")}
         images={[
-          { src: "/images/hero-vineyard.webp", alt: "Weinberg im Herbst" },
+          { src: "/images/vineyard-closeup.webp", alt: "Weinreben im Herbstlicht" },
           { src: "/images/wine-cellar.webp", alt: "Weinkeller" },
           { src: "/images/vineyard-930m.webp", alt: "Weinberg auf 930m" },
           { src: "/images/grapes-closeup.webp", alt: "Trauben am Rebstock" },

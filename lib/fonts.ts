@@ -1,4 +1,5 @@
 import localFont from "next/font/local";
+import { Plus_Jakarta_Sans } from "next/font/google";
 
 export const hatton = localFont({
   src: "../public/fonts/Hatton-Medium.woff2",
@@ -7,9 +8,9 @@ export const hatton = localFont({
   weight: "500",
 });
 
-export const parabolica = localFont({
-  src: "../public/fonts/Parabolica-Regular.woff2",
-  variable: "--font-parabolica",
+export const plusJakarta = Plus_Jakarta_Sans({
+  subsets: ["latin", "latin-ext"],
+  variable: "--font-plus-jakarta",
   display: "swap",
-  weight: "400",
+  weight: ["300", "400", "500", "600"],
 });

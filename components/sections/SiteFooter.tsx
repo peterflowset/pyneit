@@ -11,9 +11,12 @@ export function SiteFooter() {
       <div className="max-w-7xl mx-auto px-6 md:px-12 py-20 md:py-28">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-16 md:gap-8">
           <div>
-            <p className="font-serif text-2xl uppercase tracking-[0.3em] mb-4">
-              Pyneit
-            </p>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/logo.svg"
+              alt="Pyneit"
+              className="h-14 w-auto brightness-0 invert mb-6"
+            />
             <p className="font-sans text-sm text-text-muted leading-relaxed">
               {t("tagline")}
             </p>

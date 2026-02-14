@@ -15,7 +15,7 @@ export const imagePrompts: ImagePrompt[] = [
     filename: "video-poster",
     aspectRatio: "16:9",
     prompt:
-      "Dark ripe grapes being carefully sorted by hand on a rustic wooden table in a traditional wine cellar. Warm amber light from overhead creates dramatic chiaroscuro lighting. Weathered hands of a winemaker gently selecting the best grapes. Background shows blurred oak barrels and stone walls. Cinematic documentary photography style, moody atmosphere, rich dark tones with warm highlights, shallow depth of field.",
+      "Ripe golden-green grapes being carefully sorted by hand on a rustic wooden table in a traditional wine cellar. Warm amber light from overhead creates dramatic chiaroscuro lighting. Weathered hands of a winemaker gently selecting the best grapes. Background shows blurred oak barrels and stone walls. Cinematic documentary photography style, moody atmosphere, rich dark tones with warm highlights, shallow depth of field.",
   },
   {
     filename: "hero-vineyard",
@@ -51,7 +51,7 @@ export const imagePrompts: ImagePrompt[] = [
     filename: "grapes-closeup",
     aspectRatio: "1:1",
     prompt:
-      "Extreme macro close-up of ripe dark purple grapes still on the vine. Tiny dew drops and morning moisture visible on the grape skin surface. Golden backlight from the sun creates a luminous glow through and around the grapes. Individual grape textures clearly visible. Shallow depth of field with soft bokeh background of green vine leaves. Macro photography, stunning detail, warm golden tones, fresh and vibrant.",
+      "Extreme macro close-up of ripe golden-green Solaris grapes still on the vine. Tiny dew drops and morning moisture visible on the grape skin surface. Golden backlight from the sun creates a luminous glow through and around the grapes. Individual grape textures clearly visible. Shallow depth of field with soft bokeh background of green vine leaves. Macro photography, stunning detail, warm golden tones, fresh and vibrant.",
   },
   {
     filename: "terroir-soil",

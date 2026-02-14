@@ -13,7 +13,7 @@
   --color-accent-lime: #f1ed91;
 
   --font-serif: var(--font-hatton), "Times New Roman", Times, serif;
-  --font-sans: var(--font-parabolica), "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --font-sans: var(--font-plus-jakarta), "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 
   --ease-premium: cubic-bezier(0.87, 0, 0.13, 1);
 }

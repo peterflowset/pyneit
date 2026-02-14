@@ -84,6 +84,7 @@ export default function HomePage() {
           href: "/philosophie",
           cta: t("storyTeaser.cta"),
         }}
+        slideFrom="right"
       />
 
       <PlaceTeaser
